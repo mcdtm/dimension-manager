@@ -1,0 +1,28 @@
+name: 'DimensionManager'
+version: '${version}'
+main: 'me.kvdpxne.dm.DimensionManagerPlugin'
+load: 'STARTUP'
+authors: [ 'kvdpxne', 'mcdtm team' ]
+description: '${description}'
+website: 'https://github.com/mcdtm/dimension-manager/'
+softdepend: ['VoidChunkGenerator']
+
+commands:
+  dimension:
+    description: Zarzadzanie wymiarami
+    aliases: [dim]
+    usage: /dimension <create|delete|list|tp|info>
+
+permissions:
+  dimensionmanager.use:
+    description: Podstawowe komendy
+    default: op
+  dimensionmanager.create:
+    description: Tworzenie swiatow
+    default: op
+  dimensionmanager.delete:
+    description: Usuwanie swiatow
+    default: op
+  dimensionmanager.teleport:
+    description: Teleportacja
+    default: op

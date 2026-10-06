@@ -1,0 +1,21 @@
+# Domyslne ustawienia dla nowo tworzonych swiatow.
+defaults:
+  autoSave: true
+  keepSpawnInMemory: true
+  difficulty: NORMAL
+  environment: NORMAL
+  worldType: NORMAL
+
+# Wczytuj zapisane wymiary przy starcie (rekomendowane).
+loadDimensionsOnStartup: true
+
+messages:
+  prefix: "&8[&6Dimension&8] &r"
+  noPermission: "&cBrak uprawnien."
+  worldExists: "&cSwiat &e%name% &cjuż istnieje."
+  worldNotFound: "&cSwiat &e%name% &cnie istnieje."
+  worldCreated: "&aUtworzono swiat &e%name%&a."
+  worldDeleted: "&aUsunieto swiat &e%name%&a."
+  teleported: "&aTeleportowano do &e%name%&a."
+  voidUnavailable: "&cVoidChunkGenerator nie jest zaladowany - nie mozna utworzyc swiata void."
+  invalidArgs: "&cNieprawidlowe argumenty."
